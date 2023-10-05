@@ -1,0 +1,13 @@
+{
+  "hasSrc": false,
+  "packages": [
+    "drizzle",
+    "clerk"
+  ],
+  "preferredPackageManager": "pnpm",
+  "rootPath": "",
+  "driver": "mysql",
+  "provider": "planetscale",
+  "orm": "drizzle",
+  "auth": "clerk"
+}
