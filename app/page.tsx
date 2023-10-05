@@ -8,7 +8,7 @@ export default async function Home() {
       <UserButton afterSignOutUrl="/" />
       <pre>{JSON.stringify(userAuth, null, 2)}</pre>
       <div>
-        Hei
+        Hello world!
       </div>
     </main>
   );
