@@ -1,6 +1,8 @@
-import 'dotenv/config'
-import { drizzle } from 'drizzle-orm/planetscale-serverless'
-import { connect } from '@planetscale/database'
+import { drizzle } from "drizzle-orm/planetscale-serverless";
+import { connect } from "@planetscale/database";
+import "dotenv/config";
+
+ 
 
 // create the connection
 const connection = connect({
@@ -9,4 +11,4 @@ const connection = connect({
   password: process.env.DATABASE_PASSWORD
 })
 
-const db = drizzle(connection)
+export const db = drizzle(connection)
